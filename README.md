@@ -2,8 +2,11 @@
 
 💻 A free and **offline** tomato timer for developers, and business experts to quickly create quality projects.
 
+Currently, this app only supports Windows platform.
+
 ## How to Install
-- TBA
+- Download the latest release from the [release page](https://github.com/yttty/tomato-timer/releases) and unzip
+- Right-click on the `install.ps1` and select `Run with PowerShell` ![](/doc/install.png)
 
 ## Screenshots
 ![](/doc/focus.png)
@@ -21,5 +24,6 @@ pyinstaller --noconfirm .\tomato-timer.spec
 ````
 4. Generate and zip the package
 ```
+# powershell script
 create-release.ps1
 ```
